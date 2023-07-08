@@ -12,11 +12,13 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .headerCenter {
     margin-top: 16px;
     display: flex;
+    flex-wrap: wrap;
     width: 1000px;
     flex-direction: column;
     gap: 100px;
@@ -92,9 +94,12 @@ body {
     display: flex;
     justify-content: center;
     margin: 40px;
+    font-weight: 800;
+    font-size: 30px;
 }
 .boxdiv {
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 gap: 70px;
 margin-bottom: 100px;
@@ -142,4 +147,38 @@ border-radius: 14px;
 font-weight: 700;
 align-self: flex-end;
 margin-bottom: 100px;
+}
+.containerThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueBox {
+    display: flex;
+    width: 1000px;
+    background-color:#3882F6;
+    border-radius: 6px;
+    margin: 70px;
+    color: white;
+    padding: 48px 120px;
+}
+.blueBoxright {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+.blueBoxright button {
+    font-weight: 600;
+    padding: 8px 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    border:2px solid white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 36px;
+    color: #E5E7EB;
 }
