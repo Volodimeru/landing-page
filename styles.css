@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 body {
     height: 100vh;
@@ -9,20 +10,20 @@ body {
     flex-direction: column;
 }
 .header {
-    height: 540px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    
 }
 .headerCenter {
     margin-top: 16px;
     display: flex;
-    width: 1100px;
+    width: 1000px;
     flex-direction: column;
     gap: 100px;
+    margin-bottom: 100px;
 }
 .headerLogo {
+    font-weight: 600;
     font-size: 24px;
     color:#F9FAF8;
 }
@@ -34,7 +35,7 @@ body {
 .headerLinks ul {
     display: flex;
     list-style-type: none;
-    gap:16px
+    gap:18px
 }
 .headerLinks a {
     text-decoration: none;
@@ -42,39 +43,103 @@ body {
     font-size: 18px;
 }
 .headerContent {
-    justify-content: center;
     display: flex;
-    gap:50px;
+    gap:80px;
+    height: 240px;
 }
 .headerContentLeft {
     display: flex;
     flex-direction: column;
-    gap:8px;
+    gap:10px;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .headerContentLeft h1 {
     font-size: 48px;
     color: #F9FAF8;
+    
 }
 .headerContentLeft p {
     font-size: 18px;
     color: #E5E7EB;
+    
 }
 .headerContentLeft button {
-    padding: 8px;
+    font-weight: 600;
+    padding: 8px 30px;
     background-color: #3882F6;
     color: white;
-    border-radius: 10px;
-    flex-grow: 1;
+    border-radius: 6px;
+    border: none;
 } 
 .imageContainer {
     display: flex;
     background-color: rgb(117, 115, 115);
-    width: 50%;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    flex: 1;
 }
 .imageContainer p {
     color:#F9FAF8 ;
     font-size: 18px;
+}
+.containerOne {
+    display: flex;
+    flex-direction: column;
+}
+.updiv {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.boxdiv {
+display: flex;
+justify-content: center;
+gap: 70px;
+margin-bottom: 100px;
+}
+.rect {
+display: flex;
+flex-direction: column;
+width: 150px;
+height: 150px;
+border: solid 4px #3882F6;
+border-radius: 14px;
+}
+.boxtext {
+    width: 150px;
+}
+.boxtext p {
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.containerTwo {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quoteDivOne {
+   width: 812px;
+   margin-top: 100px ; 
+   font-size: 36px ; 
+   font-style: italic;
+   color: #1F2937;
+   font-weight: 400;
+}
+.bigdiv {
+    width: 812px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.quoteDivTwo {
+font-weight: 700;
+align-self: flex-end;
+margin-bottom: 100px;
 }
